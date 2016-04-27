@@ -1,0 +1,23 @@
+/* ------------------
+ styling for the tables 
+   ------------------   */
+
+#hor-zebra
+{
+	width: 480px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#hor-zebra th
+{
+	font-weight: normal;
+	padding: 10px 8px;
+}
+#hor-zebra td
+{
+	padding: 8px;
+}
+#hor-zebra .odd
+{
+	background: #EFEFEF; 
+}
