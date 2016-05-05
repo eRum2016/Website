@@ -499,11 +499,12 @@ h4 {
 /* TESTIMONIAL */
 
 #testimonial {
-	background:url(../img/testimonial-bg.png) bottom center no-repeat fixed;
+/*	background:url(../img/testimonial-bg.png) bottom center no-repeat fixed;*/
+    background:url(../img/subscribe-bg.png) bottom center no-repeat fixed;
 	width:100%;
 	height:auto;
 	min-height:225px;
-	margin-bottom:15px;
+/*	margin-bottom:15px;*/
 	padding:10px 0 20px 0;
 	background-size:cover;
 	-webkit-background-size:cover;
@@ -525,7 +526,7 @@ h4 {
 	vertical-align:middle;
 }
 
-#testimonial p {
+#testimonial p, span {
 	font-size:17px;
 }
 
@@ -534,6 +535,20 @@ h4 {
 	letter-spacing:1px;
 	margin:0;
 }
+
+#testimonial a, a:hover, a:visited {
+    text-decoration-color: white;
+	color: white;
+}
+
+#testimonial ul {
+    list-style-type: none;
+}
+
+#testimonial li {
+    margin: 0 0 10px 0;
+}
+
 
 #quote {
 	padding-top:30px;
@@ -548,6 +563,11 @@ h4 {
 
 #sponsors h3 {
 	font-size:20px;
+}
+
+#sponsors a, a:hover, a:visited {
+	text-decoration-color: #2a6496;
+    color: #2a6496;
 }
 
 

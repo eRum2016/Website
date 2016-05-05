@@ -382,3 +382,19 @@ function showInfo(data, tabletop) {
         }
     //}
 }
+
+(function() {
+	var mails = document.querySelectorAll('[data-mail-user][data-mail-domain]');
+  
+  Array.prototype.forEach.call(mails, function(el)
+  {
+  	var user    = el.dataset.mailUser;
+    var domain  = el.dataset.mailDomain;
+    var pattern =  user + '@' + domain;
+    
+		el.textContent = pattern;
+
+    if(el.getAttribute('href'))
+    	el.setAttribute('href', 'mailto:' + pattern);	
+	});
+}());
