@@ -19,5 +19,10 @@
 }
 #hor-zebra .odd
 {
-	background: #EFEFEF; 
+/*	background: #EFEFEF; */
+    background: #FFFFFF; 
+}
+#hor-zebra .cross
+{
+    text-decoration: line-through;
 }

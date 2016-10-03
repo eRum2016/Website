@@ -952,3 +952,43 @@ a.reg:hover {
     font-family: sans-serif;
     font-size: 16px;
 }
+
+/*program*/
+
+.prog-btn-non {
+  color: #000000;
+/*  font-size: 20px;*/
+  background: #EFEFEF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 5px;
+  text-align: center; 
+  height: 60px;
+}
+
+.prog-btn {
+  color: #000000;
+/*  font-size: 20px;*/
+  background: #EFEFEF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 5px;
+  text-align: center;
+  height: 60px;
+}
+
+.prog-session {
+  color: #000000;
+/*  font-size: 20px;*/
+  background: #EFEFEF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display:none; 
+  margin: 5px;
+}
+
+.prog-btn:hover {
+  background: #3498DB;
+  text-decoration: none;
+  cursor: pointer; cursor: hand;
+}

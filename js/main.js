@@ -398,3 +398,18 @@ function showInfo(data, tabletop) {
     	el.setAttribute('href', 'mailto:' + pattern);	
 	});
 }());
+
+//program
+
+$("div.action").click (function(){
+    var $this = $(this);
+    var target = $this.data('content');
+    $('div.action').not($this).each(function(){
+       var $other = $(this);
+       var otherTarget = $other.data('content');
+       $(otherTarget).hide();        
+    });
+    
+    $(target).animate({height: "toggle"}, 30);
+    
+});
