@@ -985,6 +985,7 @@ a.reg:hover {
   text-decoration: none;
   display:none; 
   margin: 5px;
+    width: 904px;
 }
 
 .prog-btn:hover {
